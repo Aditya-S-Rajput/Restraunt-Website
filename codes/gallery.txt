@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dine-In Restraunt</title>
+        <link rel="stylesheet" href="home.css">
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+        
+        .bg {
+            background: url(zakaria-zayane-0uAVsDcyD0M-unsplash.jpg) no-repeat;
+            background-size: cover;
+            /* backdrop-filter: blur(5px); */
+            height: 100vh;
+            
+    }
+    
+    .head9 {
+        /* background-color: black; */
+        /* font-family: 'Allura', cursive; */
+        font-family: 'Charmonman', cursive;
+        font-weight: bolder;
+        font-size: 6em;
+        color: rgb(184, 130, 61);
+        text-align: center;
+        padding: 10px;
+        /* padding-bottom: 20px; */
+    }
+
+    .head10 {
+        /* font-family: 'Allura', cursive; */
+        font-family: 'Charmonman', cursive;
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+        /* margin-left:10%; */
+        background-color: rgb(245, 156, 92);
+        /* text-align: center; */
+        margin-bottom: 30px;
+
+    }
+
+    .head11 {
+        /* font-family: 'Allura', cursive; */
+        font-family: 'Charmonman', cursive;
+        font-size: 30px;
+        color: black;
+        padding: 10px;
+        /* margin-left:5%; */
+        background-color: rgb(187, 95, 29);
+        /* text-align: center; */
+    }
+
+    .img {
+        display: flex;
+        float: left;
+        /* padding-left: 50px; */
+        margin-left: 30px;
+    }
+
+    .image3 {
+        padding: 15px;
+        height: 370px;
+        width: 335px;
+    }
+    
+    .image4 {
+        height: 370px;
+        padding: 15px;
+        width: 335px;
+    }
+    
+    .image5 {
+        height: 370px;
+        padding: 15px;
+        width: 335px;
+    }
+    
+    .image6 {
+        height: 370px;
+        padding: 15px;
+        width: 335px;
+
+    }
+</style>
+
+<body>
+    <div class="bg">
+
+        <div class="navbar">
+            <ul>
+                <li><a class="" href="http://127.0.0.1:5500/adi.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/about_us.html"">About Us</a></li>
+                <li><a href="http://127.0.0.1:5500/menu.html">Menu</a></li>
+                <li><a href="http://127.0.0.1:5500/gallery.html">Gallery</a></li>
+                <li><a href="http://127.0.0.1:5500/healthy_tips.html">Healthy Tips</a></li>
+                <li><a href="http://127.0.0.1:5500/contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <h3 class="head9">Gallery</h3>
+        <br>
+        <h3 class="head10">Some Sightings of Our Restaurant</h3>
+        <h3 class="head11">Visit Here & Explore a Tremendiously Loving Environment with Enjoying your Quality Food !
+        </h3>
+        
+    </div>
+    <div class="img">
+        <img class="image3" src="img4.jpg" alt="">
+        <img class="image4" src="img3.jpg" alt="">
+        <img class="image5" src="img2.jpg" alt="">
+        <img class="image6" src="img1.jpg" alt="">
+
+    </div>
+    
+</body>
+
+</html>
